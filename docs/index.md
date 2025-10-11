@@ -1,25 +1,3 @@
----
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
+# 在本仓库的 examples 示例内，因`路径匹配失败`而出现无法自动注册全局的 组件的现象，进而导致点击`展示Toast`按钮不生效
 
-hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
-
+<!-- `<global-ku-root>` -->
