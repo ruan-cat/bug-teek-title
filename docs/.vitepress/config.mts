@@ -13,13 +13,13 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "测试", link: "/@uni-ku-root/issue.md" },
+      { text: "测试", link: "/sub-page/index.md" },
     ],
 
     sidebar: [
       {
         text: "测试",
-        items: [{ text: "测试", link: "/@uni-ku-root/issue.md" }],
+        items: [{ text: "测试", link: "/sub-page/index.md" }],
       },
     ],
 
